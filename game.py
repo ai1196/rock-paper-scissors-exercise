@@ -18,8 +18,7 @@ print(f"You chose: '{user_choice}' ")
 # COMPUTER CHOICE
 valid_options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(valid_options)
-print("Computer chose:", computer_choice)
-
+print(f"Computer chose: '{computer_choice}' ")
 
 # DETERMINE THE WINNER
 
