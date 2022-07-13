@@ -33,7 +33,7 @@ if user_choice not in valid_options:
 computer_choice = random.choice(valid_options)
 print(f"Computer chose: '{computer_choice}' ")
 
-# DETERMINE THE WINNER
+# DETERMINE THE WINNER + DISPLAY THE RESULTS 
 
 # adapted from code shared in slack by Bonnie
 if user_choice == computer_choice:
@@ -54,7 +54,8 @@ elif user_choice == "scissors":
     else:
         print("Rock crushes scissors. You lose.")
 
-# DISPLAY THE RESULTS 
+# FAREWELL MESSAGE
+print("Thanks for playing. Please play again!")
 
 
 # 
