@@ -28,8 +28,6 @@ computer_choice = random.choice(valid_options)
 print(f"Computer chose: '{computer_choice}' ")
 
 # DETERMINE THE WINNER + DISPLAY THE RESULTS 
-
-# adapted from code shared in slack by Bonnie
 if user_choice == computer_choice:
     print("It's a tie!")
 elif user_choice == "rock":
