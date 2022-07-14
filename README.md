@@ -1,5 +1,3 @@
-# rock-paper-scissors-exercise
-
 # Rock Paper Scissor Exercise
 The following instructions will help you set up a python application that allows you to play rock, paper, scissors with a computer. Try your luck!
 
